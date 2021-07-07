@@ -3,6 +3,9 @@
 body{
 	font-family: 'Playfair';
 }
+a{
+	text-decoration: none;
+}
 /*----navbar css----*/
 .max-width{
     display: flex;
@@ -111,8 +114,154 @@ hr{
 .exp-2-text h2{
 	font-size: 36px;
 	font-weight: 700;
+	line-height: 50px;
+}
+.exp-2-text p{
+	font-size: 17px;
+	line-height: 30px;
+	color: #7D7987;
+}
+.exp-2-text .learn-btn{
+	background: #FB8F1D;
+	border: 1px solid #FB8F1D;
+	color: #fff;
+	padding: 10px 40px;
+	border-radius: 8px;
+	font-size: 16px;
 }
 /*----explore-2 css end-----*/
+
+/*-----features section-----*/
+.features-main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ft-main-text h2{
+	font-size: 36px;
+	font-weight: bold;
+	color: #000;
+}
+.ft-btn p a{
+	color: #FB8F1D;
+}
+.image-card{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.image-card div .sm-card{
+	position: absolute;
+	top: 74%;
+	border-radius: 0px 10px 0px 0px;
+	background: #eee;
+	padding: 10px 20px;
+}
+.image-card div .sm-card h3{
+	line-height: 0px;
+}
+.image-card div .sm-card p{
+	line-height: 10px;
+	color: #80908E;
+}
+/*-----features section end----*/
+
+/*----guid section css----*/
+.guid-main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 70px;
+}
+.gd-main-txt h2{
+	font-size: 36px;
+	font-weight: bold;
+}
+.gd-main-txt p{
+	font-size: 17px;
+	line-height: 30px;
+	color: #7D7987;;
+	padding: 0% 30% 0% 0%;
+}
+.gd-right-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gd-right-img img{
+	height: 100%;
+	width: 80%;
+}
+.gd-main-txt .gd-btn{
+	background: #FB8F1D;
+	border: none;
+	padding: 10px 40px;
+	color: #fff;
+	border-radius: 8px;
+}
+.gd-main-txt .gd-btn a{
+	color: #fff;
+	font-size: 16px;
+}
+/*---end guid section css---*/
+
+/*---testimonials--css start---*/
+.testimonials h2{
+	font-size: 36px;
+	font-weight: bold;
+}
+.testimonials-main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.tst-txt{
+	transform: translateY(40%);
+}
+.tst-txt div i{
+	color: #FFBB0C;;
+}
+.tst-txt p{
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;
+}
+.tst-txt div h3{
+	font-size: 22px;
+	line-height: 0px;
+	padding-top: 30px;
+}
+.tst-txt div p{
+	font-size: 15px;
+	line-height: 10px;
+	color: rgba(0, 0, 0, 0.85);
+;
+}
+.tst-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.tst-img div{
+	position: absolute;
+    top: 87%;
+    background: #eee;
+    padding: 10px 20px;
+    font-size: 22px;
+    right: 17%;
+}
+.tst-img div .fa-angle-left{
+	/*margin-right: 10px;*/
+	border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+.tst-img div .fa-angle-right{
+	/*margin-left: 10px;*/
+	border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+/*----end testimonials----*/
 
 
 
