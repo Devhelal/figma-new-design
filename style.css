@@ -263,7 +263,34 @@ hr{
 }
 /*----end testimonials----*/
 
-
+/*--blog post--*/
+.blog{
+	display: flex;
+	justify-content: space-between;
+}
+.blog div img{
+	height: 60%;
+	width: 100%;
+}
+.blog div h3{
+	font-size: 19px;
+	line-height: 20px;
+	color: #000000;
+}
+.blog div p{
+	font-size: 15px;
+	color: #7D7987;
+	line-height: 20px;
+}
+.blog .read-btn{
+	border: none;
+	background: transparent;
+}
+.blog .read-btn a{
+	color: #FB8F1D;
+	font-weight: bold;
+}
+/*---end bog post--*/
 
 
 
